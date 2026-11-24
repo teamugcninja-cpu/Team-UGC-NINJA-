@@ -621,3 +621,22 @@ footer > a:last-child:hover {
     transition: none !important;
   }
 }
+
+/* JAVASCRIPT ANIMATIONS */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.navbar.scrolled {
+  background: rgba(0,0,0,.97);
+  box-shadow: 0 5px 25px #ff182822;
+}
+
